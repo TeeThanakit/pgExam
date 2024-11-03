@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-height: 100vh;
+    background: url('./dessert.jpg');
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.imageDisplay {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.image {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image:hover {
+    transform: scale(1.5);
+}
+
+.itim-regular {
+    font-family: "Itim", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.header{
+    font-size: 50px;
+}
